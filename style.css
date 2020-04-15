@@ -1,0 +1,62 @@
+
+/* style to make sure button options are always in the middle of the screen, and setting background color, white hurts my eyes.*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightcyan;
+}
+
+/*targeting class container to design the "box" of the area of where the scenario text and buttons will be.*/
+.container {
+    max-width: 800px;
+    width: 50%;
+    height: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px;
+    min-width: 400px;
+    
+}
+
+/*centering the scenarios text*/
+.text {
+    text-align: center;
+}
+
+/*make the style for the button container, shaping them onto green color, position on the bottom, and in a grid style where you only have 2 buttons per row*/
+.buttons {
+    max-width: 600px;
+    min-width: 300px;
+    width: 90%;
+    padding-top: 30px;
+    padding-left: 60px;
+    margin: auto;
+    display: row;
+    justify-content: center;
+
+}
+
+/*setting the color and shape for the actual buttons*/
+.button {
+    background-color: rgb(25, 211, 25);
+    border: 1px solid rgb(87, 197, 87);
+    border-radius: 5px ;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    width: 37%;
+    height: 50px;
+    font-size: 100%;
+    text-align: center;
+}
+
+.button:hover {
+    border-color: white;
+}
